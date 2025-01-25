@@ -1,6 +1,6 @@
-# frasier
+# Primordial - AGENT #F
 
-Frasier is an open-source AI agent built in Python, designed to be a versatile assistant that adapts to users' specific needs and workflows. Whether you're a developer, researcher, or trader, Frasier can be customized to enhance your productivity and streamline your tasks.
+Agent #F, codename frasier, is the open-source agent released by Primodial, the first of many editions. Designed to be a versatile assistant that adapts to users' specific needs and workflows. Whether you're a developer, researcher, or trader, Frasier can be customized to enhance your productivity and streamline your tasks.
 
 # Features
 Frasier offers a robust set of capabilities that make it a powerful tool for various applications:
