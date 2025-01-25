@@ -100,10 +100,10 @@ class CustomAnalyzer(FrasierPlugin):
 # If you use Frasier in your research, please cite:
 
 @software{frasier2025,
-  title = {Frasier: An Adaptive AI Agent},
-  author = {Frasier},
+  title = {Agent#F: By Primordial},
+  author = {Primordial},
   year = {2025},
-  url = {https://github.com/fra-sier/frasier}
+  url = {https://github.com/primordiaal/primdorial}
 }
 
 
