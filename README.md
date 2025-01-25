@@ -1,30 +1,30 @@
 # Darude - AGENT #F
 
-Agent #F, codename frasier, is the open-source agent released by Darude, the first of many editions. Designed to be a versatile assistant that adapts to users' specific needs and workflows. Whether you're a developer, researcher, or trader, Frasier can be customized to enhance your productivity and streamline your tasks.
+Agent #F, is the open-source agent released by Darude, the first of many editions. Designed to be a versatile assistant that adapts to users' specific needs and workflows. Whether you're a developer, researcher, or trader, Darude can be customized to enhance your productivity and streamline your tasks.
 
 # Features
-Frasier offers a robust set of capabilities that make it a powerful tool for various applications:
+Darude offers a robust set of capabilities that make it a powerful tool for various applications:
 
-- Adaptive Learning: Frasier learns from interactions to better understand user preferences and patterns
+- Adaptive Learning: Darude learns from interactions to better understand user preferences and patterns
 
-- Natural Language Processing: Communicate with Frasier using natural language for seamless interaction
+- Natural Language Processing: Communicate with Darude using natural language for seamless interaction
 
-- Custom Plugin Architecture: Extend Frasier's capabilities through a flexible plugin system
+- Custom Plugin Architecture: Extend Darude's capabilities through a flexible plugin system
 
 - Multi-Modal Interaction: Support for text, voice, and structured data inputs
 
-- Cross-Platform Compatibility: Run Frasier on Windows, macOS, or Linux systems
+- Cross-Platform Compatibility: Run Darude on Windows, macOS, or Linux systems
 
 
 
 # Fraiwork
 
-Frasier is built on a powerful and flexible Python framework that enables seamless integration of various AI capabilities. The framework is designed with modularity and extensibility in mind, allowing developers to easily add new features and customize existing ones.
+Darude is built on a powerful and flexible Python framework that enables seamless integration of various AI capabilities. The framework is designed with modularity and extensibility in mind, allowing developers to easily add new features and customize existing ones.
 
-The core of Frasier is built on an event-driven architecture that processes user inputs through a pipeline of specialized modules. Each module is responsible for a specific aspect of the agent's functionality, such as natural language understanding, task planning, or execution.
+The core of Darude is built on an event-driven architecture that processes user inputs through a pipeline of specialized modules. Each module is responsible for a specific aspect of the agent's functionality, such as natural language understanding, task planning, or execution.
 
 
-class FrasierCore:
+class DarudeCore:
     def __init__(self):
         self.modules = {
             'planner': TaskPlanner(),
@@ -39,7 +39,7 @@ class FrasierCore:
         result = await self.executor.execute(plan)
         return await self.feedback.process(result)
 
-Frasier implements a sophisticated memory management system that maintains both short-term and long-term memory. This enables the agent to maintain context across conversations and learn from past interactions:
+Darude implements a sophisticated memory management system that maintains both short-term and long-term memory. This enables the agent to maintain context across conversations and learn from past interactions:
 
 
 class MemoryManager:
@@ -54,21 +54,21 @@ class MemoryManager:
 
 
 
-# Using frasier
+# Using Darude
 
 Python 3.8+
 pip (Python package installer)
 
-pip install frasier-ai
+pip install Darude-ai
 
-git clone https://github.com/fra-sier/frasier.git
-cd frasier
+git clone https://github.com/fra-sier/Darude.git
+cd Darude
 pip install -e .
 
-from frasier import FrasierAgent
+from Darude import DarudeAgent
 
-# Initialize Frasier
-agent = FrasierAgent()
+# Initialize Darude
+agent = DarudeAgent()
 
 # Usage
 # Start interaction
@@ -77,16 +77,16 @@ print(response)
 
 # Config
 # config.yaml
-frasier:
+Darude:
   language: "en"
   plugins_enabled: true
   memory_size: 1000
   response_mode: "detailed"
 
 # Plugin
-from frasier.plugins import FrasierPlugin
+from Darude.plugins import DarudePlugin
 
-class CustomAnalyzer(FrasierPlugin):
+class CustomAnalyzer(DarudePlugin):
     def __init__(self):
         super().__init__("custom_analyzer")
     
@@ -97,13 +97,13 @@ class CustomAnalyzer(FrasierPlugin):
 
 
 
-# If you use Frasier in your research, please cite:
+# If you use Darude in your research, please cite:
 
-@software{frasier2025,
+@software{Darude2025,
   title = {Agent#F: By Darude},
   author = {Darude},
   year = {2025},
-  url = {https://github.com/primordiaal/Darude}
+  url = {https://github.com/darud3e/Darude}
 }
 
 
