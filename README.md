@@ -61,7 +61,7 @@ pip (Python package installer)
 
 pip install Darude-ai
 
-git clone https://github.com/fra-sier/Darude.git
+git clone https://github.com/darud3e/Darude.git
 cd Darude
 pip install -e .
 
