@@ -1,6 +1,6 @@
-# Primordial - AGENT #F
+# Darude - AGENT #F
 
-Agent #F, codename frasier, is the open-source agent released by Primodial, the first of many editions. Designed to be a versatile assistant that adapts to users' specific needs and workflows. Whether you're a developer, researcher, or trader, Frasier can be customized to enhance your productivity and streamline your tasks.
+Agent #F, codename frasier, is the open-source agent released by Darude, the first of many editions. Designed to be a versatile assistant that adapts to users' specific needs and workflows. Whether you're a developer, researcher, or trader, Frasier can be customized to enhance your productivity and streamline your tasks.
 
 # Features
 Frasier offers a robust set of capabilities that make it a powerful tool for various applications:
@@ -100,10 +100,10 @@ class CustomAnalyzer(FrasierPlugin):
 # If you use Frasier in your research, please cite:
 
 @software{frasier2025,
-  title = {Agent#F: By Primordial},
-  author = {Primordial},
+  title = {Agent#F: By Darude},
+  author = {Darude},
   year = {2025},
-  url = {https://github.com/primordiaal/primdorial}
+  url = {https://github.com/primordiaal/Darude}
 }
 
 
